@@ -36,31 +36,22 @@ external-research/
 
 ## Key Features
 
-- ✅ **Tool-agnostic** - Works with Claude Code, Cursor, Aider, Windsurf, etc.
+- ✅ **Universal compatibility** - Works in any modern agentic environment or CLI
+- ✅ **Tool-agnostic** - Adapts to your platform's web search, URL fetch, and doc API tools
 - ✅ **Time-aware searching** - Add current year to queries for fresh results
 - ✅ **Real examples** - Based on actual research, not fabricated
 - ✅ **Validation checklist** - Ensure research completeness
 - ✅ **Citation format** - Proper source attribution
 
-## Quick Start
+## Compatibility
 
-After installation, the skill teaches your AI agent to:
+This skill works with **any modern AI coding assistant** that supports:
 
-1. **Never trust model memory** for API signatures, defaults, or security patterns
-2. **Search with the current year** (e.g., "FastAPI JWT 2026")
-3. **Read official documentation** directly, not just search snippets
-4. **Cite all sources** with URLs and versions
-5. **Validate findings** with the included checklist
+- Web search capability (however named in your environment)
+- URL/content fetching
+- Optional: Documentation APIs like context7 MCP
 
-## Compatible Platforms
-
-| Platform | Web Search | URL Fetch | Doc APIs |
-|----------|------------|-----------|----------|
-| Claude Code | `WebSearch` | `WebFetch` | MCP ✅ |
-| Cursor | `@web` | Browser | MCP ✅ |
-| Aider | `/web` | Webcrawl | - |
-| Windsurf | Cascade | Web Fetch | MCP ✅ |
-| GitHub Copilot | `@github #web` | URL Context | - |
+Tested with: Claude Code, Cursor, Aider, Windsurf, GitHub Copilot, and more.
 
 ## License
 
