@@ -1,0 +1,33 @@
+{
+    "name": "external-research-skill",
+    "version": "1.0.0",
+    "description": "Comprehensive external research methodology for AI coding assistants",
+    "keywords": [
+        "agent-skills",
+        "ai-agent",
+        "claude-code",
+        "cursor",
+        "aider",
+        "external-research",
+        "documentation",
+        "web-search"
+    ],
+    "author": "Rohan",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/rohancode/external-research-skill"
+    },
+    "homepage": "https://github.com/rohancode/external-research-skill#readme",
+    "bugs": {
+        "url": "https://github.com/rohancode/external-research-skill/issues"
+    },
+    "files": [
+        "SKILL.md",
+        "README.md",
+        "LICENSE",
+        "examples/",
+        "resources/",
+        "scripts/"
+    ]
+}
