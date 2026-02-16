@@ -14,10 +14,10 @@ Large Language Models have knowledge cutoffs and can hallucinate API details. Th
 
 ```bash
 # Using Vercel's skills CLI
-npx skills add MaizeCobra/external-research
+npx skills add MaizeCobra/external-research-skill
 
 # Or using add-skill
-npx add-skill MaizeCobra/external-research
+npx add-skill MaizeCobra/external-research-skill
 ```
 
 ## What's Included
